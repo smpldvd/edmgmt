@@ -1,0 +1,13 @@
+#mainContainer{
+    width: 960px;
+    margin: auto;
+}
+#title{
+    margin-bottom: 2rem;
+}
+#employeeTbl {
+    margin-bottom: 2rem;
+}
+#addForm {
+    margin-bottom: 2rem;
+}

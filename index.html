@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
+
+    <title>Employee Data Management</title>
+</head>
+
+<body>
+    <div id="mainContainer" class="container">
+        <section id="title">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4 text-center">Employee Data Management</h1>
+                    <p class="lead text-center">A comprehensive directory of employee billable hours</p>
+                </div>
+            </div>
+        </section>
+        <section id="employeeTbl">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Add Employee</h5>
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Employee Name</th>
+                                <th scope="col">Role</th>
+                                <th scope="col">Start Date</th>
+                                <th scope="col">Months Worked</th>
+                                <th scope="col">Monthly Rate</th>
+                                <th scope="col">Total Billed</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr scope="row">
+                                <td>Ivan</td>
+                                <td>Owner</td>
+                                <td>01/22/1982</td>
+                                <td>6</td>
+                                <td>1000</td>
+                                <td>6000</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="addForm">
+
+            <div class="card" style="width: 24rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Add Employee</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="empNameLbl">Employee Name</label>
+                            <input type="text" class="form-control" id="empName" placeholder="Employee Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="empRoleLbl">Role</label>
+                            <input type="text" class="form-control" id="empRole" placeholder="Role">
+                        </div>
+                        <div class="form-group">
+                            <label for="empStartDateLbl">Start Date (DD/MM/YY - example 31/01/89)</label>
+                            <input type="text" class="form-control" id="empStartDate" placeholder="Start Date">
+                        </div>
+                        <div class="form-group">
+                            <label for="empMonthlyRateLbl">Start Date (DD/MM/YY - example 31/01/89)</label>
+                            <input type="text" class="form-control" id="empMonthlyRate" placeholder="Monthly Rate">
+                        </div>
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
