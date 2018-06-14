@@ -10,16 +10,11 @@ var config = {
 
   var database = firebase.database();
 
-  let name = 'Ivan';
-  let role = 'Owner';
-  let sDate = '13/06/17';
-  let mRate = 1000;
-
+/*
   database.ref().push({
     name: name,
     role: role,
     sDate: sDate,
     mRate: mRate     
 });
-
-
+*/
