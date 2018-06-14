@@ -32,13 +32,14 @@ $(document).on('click', '#submit', function (event) {
 });
 
 database.ref().on('child_added', function (childSnap) {
-    let name = childSnap.val().name;
-    let role = childSnap.val().role;
-    let sDate = childSnap.val().sDate;
-    let mRate = childSnap.val().mRate;
+    name = $("<td>").text(childSnap.val().name);
+    role = $("<td>").text(childSnap.val().role);
+    sDate = $("<td>").text(childSnap.val().sDate);
+    mRate = $("<td>").text(childSnap.val().mRate);
 
-    let $tbody = $('<tbody>');
-    let $tr = $('<tr>');
+    let tBody = $('<tbody>');
+    let tRow = $('<tr>');
 
-    var
+    tRow.append(name, role, sDate, mRate);
+    tBody.append(tRow);
 })
